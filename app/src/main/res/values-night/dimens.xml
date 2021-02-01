@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="card_name">30sp</dimen>
+    <dimen name="card_text_top">5dp</dimen>
+    <dimen name="card_text_start">35dp</dimen>
+</resources>

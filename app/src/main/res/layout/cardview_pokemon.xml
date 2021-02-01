@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cvPokemon"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:layout_gravity="center_horizontal"
+    android:layout_margin="@dimen/margin_card_view"
+    card_view:cardCornerRadius="@dimen/corner_radius_card_view"
+    card_view:layout_anchorGravity="center_horizontal"
+    android:backgroundTint="@color/white">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/imgPokebola"
+            android:layout_width="@dimen/size_img_pokebola"
+            android:layout_height="@dimen/size_img_pokebola"
+            android:adjustViewBounds="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/pokebola_icon" />
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="@dimen/layout_card_view_text"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/imgPokebola"
+            android:orientation="vertical"
+            android:layout_marginTop="@dimen/margin_calificacion">
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/tvNombre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:textStyle="bold"
+                android:textSize="@dimen/size_nombre_card_view" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/tvNumero"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/lightGrey"
+                android:textSize="@dimen/size_descripcion" />
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </RelativeLayout>
+
+</com.google.android.material.card.MaterialCardView>

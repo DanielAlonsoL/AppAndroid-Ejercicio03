@@ -1,0 +1,108 @@
+<resources>
+    <string name="app_name">PokeDex</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="base_url">https://pokeapi.co/api/v2/pokemon?limit=151/</string>
+
+    <string-array name="types_array">
+        <item>bug</item>
+        <item>dark</item>
+        <item>dragon</item>
+        <item>electric</item>
+        <item>fairy</item>
+        <item>fighting</item>
+        <item>fire</item>
+        <item>flying</item>
+        <item>ghost</item>
+        <item>grass</item>
+        <item>ground</item>
+        <item>ice</item>
+        <item>normal</item>
+        <item>poison</item>
+        <item>psychic</item>
+        <item>rock</item>
+        <item>steel</item>
+        <item>water</item>
+    </string-array>
+
+
+    <!-- MENU TOOLBAR -->
+    <string name="favoritas">Favoritas</string>
+    <string name="about_me">Acerca de</string>
+    <string name="contact">Contacto</string>
+
+    <!-- SPLASH -->
+    <string name="texto_splash">PokeDex</string>
+    <string name="texto_version">Version 1.0</string>
+
+    <!-- ACERCA DE -->
+    <string name="texto_mi_nombre">Daniel Alonso Lopez</string>
+    <string name="texto_bio">
+        "Soy estudiante de la facultad de ingeniería UNAM,"
+        "tengo 23 años de edad, actualmente en noveno semestre de la carrera de ingeniería en computación,"
+        "este es el ejercicio 3 del taller de Android, desarrollado para la materia optativa de Cómputo Móvil,"
+        "en donde se puso en práctica el uso de conexiones a API's y el manejo de Objetos JSON"
+    </string>
+
+    <!-- CONTACTO -->
+    <string name="texto_nombre_contacto">Nombre completo</string>
+    <string name="texto_correo">Correo electronico</string>
+    <string name="texto_mensaje">Mensaje</string>
+    <string name="texto_enviar">Enviar</string>
+
+    <!-- FAVORITAS -->
+    <string name="total" translatable="false">" / 5.0"</string>
+    <string name="seleccion"> Seleccionaste el elemento con ID: \</string>
+    <string name="smtp_host" translatable="false">mail.smtp.host</string>
+    <string name="smtp_gmail" translatable="false">smtp.gmail.com</string>
+    <string name="smtp_socketFactory_port" translatable="false">mail.smtp.socketFactory.port</string>
+    <string name="port" translatable="false">465</string>
+    <string name="smtp_socketFactory_class" translatable="false">mail.smtp.socketFactory.class</string>
+    <string name="net_ssl" translatable="false">javax.net.ssl.SSLSocketFactory</string>
+    <string name="smtp_port" translatable="false">mail.smtp.port</string>
+    <string name="smtp_auth" translatable="false">mail.smtp.auth</string>
+    <string name="auth_true" translatable="false">true</string>
+    <string name="espere">Espere por favor</string>
+    <string name="enviando">Enviando correo...</string>
+    <string name="from" translatable="false">From \</string>
+    <string name="body" translatable="false">"  Body: \\"</string>
+    <string name="envio_exitoso" translatable="false">Envío exitoso</string>
+    <string name="error" translatable="false">Error</string>
+    <string name="envio_exitoso_html" translatable="false"><font color='#509324'>Envío exitoso</font></string>
+    <string name="envio_correcto">El correo se ha enviado con éxito</string>
+    <string name="ok" translatable="false">OK</string>
+    <string name="intente_mas_tarde">Algo salió mal, intente más tarde</string>
+    <string name="eliminar">Eliminaste elemento con ID: \</string>
+
+    <!-- TEXT VIEWS -->
+    <string name="tv_base_experience">Base experience:</string>
+    <string name="tv_height">Height:</string>
+    <string name="tv_weight">Weight:</string>
+    <string name="tv_type">Type:</string>
+
+
+    <string name="music">music</string>
+    <string name="results">results</string>
+    <string name="url_perfil">url</string>
+    <string name="name">name</string>
+    <string name="drawable">drawable</string>
+    <string name="progress">progress</string>
+
+    <string name="base_experience">base_experience</string>
+    <string name="height">height</string>
+    <string name="weight">weight</string>
+    <string name="types">types</string>
+    <string name="type">type</string>
+    <string name="sprites">sprites</string>
+    <string name="other">other</string>
+    <string name="official_artwork">official-artwork</string>
+    <string name="front_default">front_default</string>
+    <string name="pausa_musica">PAUSA_MUSICA</string>
+    <string name="reproduce_musica">REPRODUCE_MUSICA</string>
+    <string name="title_error">¡Ups!</string>
+    <string name="supporting_text">Ha ocurrido un error\nPor favor, verifica tu conexión a Internet e intentalo nuevamente</string>
+    <string name="exit">Salir</string>
+    <string name="try_again">Try again</string>
+
+
+</resources>

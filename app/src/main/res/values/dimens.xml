@@ -1,0 +1,61 @@
+<resources>
+
+    <!-- CARD VIEW -->
+    <dimen name="margin_card_view">8dp</dimen>
+    <dimen name="layout_card_view_text">170dp</dimen>
+    <dimen name="size_nombre_card_view">18sp</dimen>
+
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="size_texto_splash">55sp</dimen>
+    <dimen name="splash_vertical_margin">200dp</dimen>
+
+
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">20dp</dimen>
+
+    <dimen name="editText_vertical_margin">8dp</dimen>
+
+    <dimen name="margin_vertical_text">18dp</dimen>
+
+    <dimen name="radius_button">10dp</dimen>
+
+    <dimen name="size_text_description">26sp</dimen>
+    <dimen name="size_texto_mostrar">25sp</dimen>
+
+    <dimen name="margin_text_view">12dp</dimen>
+
+    <dimen name="size_texto_nota">14sp</dimen>
+
+    <dimen name="vertical_card_background">120dp</dimen>
+
+    <dimen name="size_image_user">150dp</dimen>
+    <dimen name="margin_top_user">60dp</dimen>
+
+
+    <dimen name="cv_margin">30dp</dimen>
+
+    <dimen name="margin_calificacion">10dp</dimen>
+    <dimen name="corner_radius_card_view">10dp</dimen>
+
+    <dimen name="size_img_pokebola">80dp</dimen>
+
+    <!-- POKEMON -->
+    <dimen name="size_img_pokemon">200dp</dimen>
+
+    <dimen name="size_titulo_cancion">20sp</dimen>
+    <dimen name="size_descripcion">16sp</dimen>
+    <dimen name="card_name">30sp</dimen>
+    <dimen name="card_width">300dp</dimen>
+    <dimen name="card_height">215dp</dimen>
+    <dimen name="card_text_top">5dp</dimen>
+    <dimen name="card_text_start">35dp</dimen>
+
+
+    <dimen name="margin_name_top">100dp</dimen>
+    <dimen name="size_my_name">35sp</dimen>
+    <dimen name="size_type">50dp</dimen>
+    <dimen name="size_ivPokemon">250dp</dimen>
+    <dimen name="margin_top_ivPokemon">100dp</dimen>
+    <dimen name="margin_bottom_ivPokemon">25dp</dimen>
+
+</resources>
